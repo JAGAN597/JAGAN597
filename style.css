@@ -185,7 +185,8 @@ form {
 }
 .contact-head{
   color: #ca0543e9;
-  font-size: 20px;
+  font-size: 50px;
+  font-weight:bold;
 }
 input, textarea {
   padding: 10px;
@@ -318,3 +319,4 @@ footer {
     font-size: 14px;
   }
 }
+
