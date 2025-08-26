@@ -1,0 +1,231 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background:url("https://res.cloudinary.com/dpnikzisz/image/upload/v1755845508/samples/landscapes/beach-boat.jpg")
+}
+
+/* Header */
+header {
+  background:url("https://res.cloudinary.com/dpnikzisz/image/upload/v1756195674/header_alyqik.jpg");
+  color: white;
+  background: cover;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+.h1{
+    font-family: "Merriweather", serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(240, 239, 244);
+    padding-right: 50px;
+    
+}
+.logo{
+    height: 100px;       /* proper size */
+   width: auto;        /* keeps aspect ratio */
+   border-radius: 8px; /* optional rounded corners */
+   object-fit: contain; /* keeps logo from stretching */
+   float: left;
+   padding-top: 10px;
+   padding-left: 10px;
+}
+nav {
+  margin-top: 0.5rem;
+  color: #2df00b;
+  text-align: right;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  background: url("https://res.cloudinary.com/dpnikzisz/image/upload/v1756196728/young-drivers-search-bg_pczqrk.webp") no-repeat center/cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.h2{
+    color: rgba(165, 4, 76, 0.951);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    font-style: oblique;
+}
+.para{
+    color: rgb(32, 4, 158);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.h3{
+    color:green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+}
+.para2{
+    color: rgba(5, 14, 16, 0.937);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hero h2 {
+  font-size: 2.2rem;
+}
+.btn {
+  padding: 10px 20px;
+  background: #eb0404;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #ff4040;
+}
+
+.about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 20vh;
+}
+.ser1{
+  font-size: 50px;
+  color: rgb(210, 123, 0);
+}
+/* Sections */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+section h2 {
+  color: #0077b6;
+  margin-bottom: 1rem;
+}
+
+/* Services */
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  height: 100px;
+}
+.card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+  border: 2px solid red;
+  margin: 10px;
+  padding: 20px;
+}
+.car{
+  color:orangered;
+  font-size:25px;
+}
+.card img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.card h3 {
+  margin: 0.5rem 0;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 15px;
+}
+.gallery img {
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.gmail{
+  height: 50px;
+}
+.contact-head{
+  color: #ca0543e9;
+  font-size: 50px;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  background: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #005f86;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Floating WhatsApp Buttons */
+.whatsapp-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+.whatsapp-btn {
+  background: #25d366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+}
