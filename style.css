@@ -176,10 +176,16 @@ form {
 }
 .gmail{
   height: 50px;
+  list-style-type: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Uses Flexbox to align list items */
+  justify-content: center;
+  gap: 15px;
 }
 .contact-head{
   color: #ca0543e9;
-  font-size: 50px;
+  font-size: 20px;
 }
 input, textarea {
   padding: 10px;
@@ -228,4 +234,87 @@ footer {
 }
 .whatsapp-btn:hover {
   background: #1ebe5d;
+}
+/* 📱 Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  /* Header */
+  .h1 {
+    font-size: 28px;
+    padding-right: 0;
+  }
+  .logo {
+    height: 60px;
+    padding: 5px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+  nav a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 14px;
+  }
+
+  /* Hero */
+  .hero {
+    height: auto;
+    padding: 40px 20px;
+  }
+  .h2 {
+    font-size: 32px;
+  }
+  .para {
+    font-size: 18px;
+  }
+
+  /* About */
+  .h3 {
+    font-size: 28px;
+  }
+  .para2 {
+    font-size: 16px;
+  }
+
+  /* Services */
+  .services {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .card {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+  .car {
+    font-size: 20px;
+  }
+  .card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Gallery */
+  .gallery img {
+    width: 45%;
+    height: auto;
+  }
+
+  /* Contact */
+  .contact-head {
+    font-size: 28px;
+  }
+  form {
+    width: 90%;
+  }
+
+  /* WhatsApp floating buttons */
+  .whatsapp-btn {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
 }
